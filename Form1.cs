@@ -67,9 +67,9 @@ namespace WindowsFormsApplication2
         {
             List<TeamMember> Result = new List<TeamMember>();
             Result.Add(new TeamMember("Julia", "B", "Winegeart"));
-            Result.Add(new TeamMember("Adam", "N", "Poell"));
-            Result.Add(new TeamMember("Greg", "A", "Grieshaber"));
-            Result.Add(new TeamMember("Yogesh", "K", "Tamrakar"));
+            Result.Add(new TeamMember("Harry", "J", "Potter"));
+            Result.Add(new TeamMember("Ronald", "B", "Weasely"));
+            Result.Add(new TeamMember("Hermione", "J", "Granger"));
             return Result.ToArray();
         }
         #endregion InitializeData
